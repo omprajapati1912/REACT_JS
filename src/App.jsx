@@ -1,6 +1,7 @@
 // import { useState } from "react";
 import "./App.css";
-import Form from "./Form";
+import Comment from "./Comment";
+// import Form from "./Form";
 // import Prop from "./Prop";
 // import Counter from "./Counter";
 // import Spreding from "./Spreding";
@@ -18,7 +19,8 @@ function App() {
       {/* <Counter /> */}
       {/* <Spreding /> */}
       {/* <Prop array={arr} studentdata={student} /> */}
-      <Form />
+      {/* <Form /> */}
+      <Comment />
     </>
   );
 }
