@@ -1,6 +1,7 @@
 // import { useState } from "react";
 import "./App.css";
-import Comment from "./Comment";
+// import Comment from "./Comment";
+import Curd from "./Curd";
 // import Form from "./Form";
 // import Prop from "./Prop";
 // import Counter from "./Counter";
@@ -20,7 +21,8 @@ function App() {
       {/* <Spreding /> */}
       {/* <Prop array={arr} studentdata={student} /> */}
       {/* <Form /> */}
-      <Comment />
+      {/* <Comment /> */}
+      <Curd />
     </>
   );
 }
