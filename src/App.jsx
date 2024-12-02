@@ -1,8 +1,8 @@
 // import { useState } from "react";
 import "./App.css";
 // import Comment from "./Comment";
-// import Curd from "./Curd";
-import Search from "./Search";
+import Curd from "./Curd";
+// import Search from "./Search";
 // import Form from "./Form";
 // import Prop from "./Prop";
 // import Counter from "./Counter";
@@ -23,8 +23,8 @@ function App() {
       {/* <Prop array={arr} studentdata={student} /> */}
       {/* <Form /> */}
       {/* <Comment /> */}
-      {/* <Curd /> */}
-      <Search />
+      <Curd />
+      {/* <Search /> */}
     </>
   );
 }
