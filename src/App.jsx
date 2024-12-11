@@ -1,7 +1,8 @@
 // import { useState } from "react";
 import "./App.css";
+import AddData from "./redux/AddData";
 // import Comment from "./Comment";
-import Curd from "./Curd";
+// import Curd from "./Curd";
 // import Search from "./Search";
 // import Form from "./Form";
 // import Prop from "./Prop";
@@ -23,7 +24,8 @@ function App() {
       {/* <Prop array={arr} studentdata={student} /> */}
       {/* <Form /> */}
       {/* <Comment /> */}
-      <Curd />
+      <AddData />
+      {/* <Curd /> */}
       {/* <Search /> */}
     </>
   );
