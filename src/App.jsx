@@ -1,6 +1,10 @@
 // import { useState } from "react";
+// import Apistore from "./API/Apistore";
+// import Axiosapi from "./API/Axiosapi";
+// import Userapi from "./API/Userapi";
+import Dogapi from "./API/Dogapi";
 import "./App.css";
-import AddData from "./redux/AddData";
+// import AddData from "./redux/AddData";
 // import Comment from "./Comment";
 // import Curd from "./Curd";
 // import Search from "./Search";
@@ -24,9 +28,13 @@ function App() {
       {/* <Prop array={arr} studentdata={student} /> */}
       {/* <Form /> */}
       {/* <Comment /> */}
-      <AddData />
+      {/* <AddData /> */}
       {/* <Curd /> */}
       {/* <Search /> */}
+      {/* <Apistore /> */}
+      {/* <Axiosapi /> */}
+      {/* <Userapi /> */}
+      <Dogapi />
     </>
   );
 }
