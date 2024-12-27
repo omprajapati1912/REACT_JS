@@ -2,8 +2,10 @@
 // import Apistore from "./API/Apistore";
 // import Axiosapi from "./API/Axiosapi";
 // import Userapi from "./API/Userapi";
-import Dogapi from "./API/Dogapi";
+// import Dogapi from "./API/Dogapi";
 import "./App.css";
+import Firestore from "./Fire-base/Firestore";
+import RealTime from "./RealTimeFireBase/RealTime";
 // import AddData from "./redux/AddData";
 // import Comment from "./Comment";
 // import Curd from "./Curd";
@@ -34,7 +36,9 @@ function App() {
       {/* <Apistore /> */}
       {/* <Axiosapi /> */}
       {/* <Userapi /> */}
-      <Dogapi />
+      {/* <Dogapi /> */}
+      {/* <Firestore /> */}
+      {/* <RealTime /> */}
     </>
   );
 }
