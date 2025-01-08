@@ -60,7 +60,7 @@ function RealTime() {
 
   return (
     <>
-      <h1>FireBase</h1>
+      <h1>Real-Time</h1>
       <form onSubmit={handleForm}>
         <input
           type="text"
